@@ -3,6 +3,7 @@ import 'book.dart';
 import 'genre.dart';
 
 void main() {
+  Library library = Library();
   Genre genre1 = Genre("Romance");
   Author author1 = Author("John Green");
 
@@ -15,5 +16,11 @@ void main() {
       genre1,
       author1);
 
-  book1.showDetails();
+  library.addBook(book1);
+
+  // Book newBook = Book.empty();
+  // newBook.readDetails();
+
+  print("Lista de livros na biblioteca:");
+  library.listBooks();
 }
