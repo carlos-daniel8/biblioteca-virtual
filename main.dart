@@ -1,14 +1,19 @@
-// import 'book.dart';
-// import 'genre.dart';
+import 'autor.dart';
+import 'book.dart';
+import 'genre.dart';
 
 void main() {
-  // Book livro1 = Book(
-  //     "Cidades de Papel",
-  //     "Acompanhe a história de amor e aventuras de Quentin Jacobsen e Margo Roth Spiegelman",
-  //     50.00,
-  //     2005,
-  //     "absd1");
+  Genre genre1 = Genre("Romance");
+  Author author1 = Author("John Green");
 
-  // Genre genero1 = Genre("Romance");
+  Book book1 = Book(
+      "Cidades de Papel",
+      "Acompanhe a história de amor e aventuras de Quentin Jacobsen e Margo Roth Spiegelman",
+      50.00,
+      2008,
+      "absd1",
+      genre1,
+      author1);
 
+  book1.showDetails();
 }

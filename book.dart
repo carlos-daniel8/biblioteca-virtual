@@ -1,14 +1,19 @@
 import 'dart:io';
 
-class Book {
+import 'autor.dart';
+import 'genre.dart';
 
+class Book {
   String title;
   String description;
   double price;
   int launchedYear;
   String isbn;
+  Genre genre;
+  Author author;
 
-  Book(this.title, this.description, this.price, this.launchedYear, this.isbn);
+  Book(this.title, this.description, this.price, this.launchedYear, this.isbn,
+      this.genre, this.author);
 
   void showDetails() {
     print("Nome do livro: ${title}");
@@ -16,6 +21,8 @@ class Book {
     print("Valor: ${price}");
     print("Ano de publicação: ${launchedYear}");
     print("ISBN: ${isbn}");
+    print("Gênero: ${genre.genreName}");
+    print("Autor: ${author.authorName}");
   }
 
   void readDetails() {
@@ -29,5 +36,9 @@ class Book {
     isbn = stdin.readLineSync()!;
     print("Digite a descrição: ");
     description = stdin.readLineSync()!;
+    print("Digite o gênero: ");
+    genre = Genre(stdin.readLineSync()!);
+    print("Digite o autor: ");
+    author = Author(stdin.readLineSync()!);
   }
 }
