@@ -10,7 +10,7 @@ Nesta atividade, você será desafiado a criar uma classe em Dart que represente
 
 Requisitos Técnicos:
 
-- Utilize a linguagem Dart para implementar a classe da biblioteca virtual.
+- Utilize a linguagem Dart para implementar a classe da biblioteca virtual - OKAY.
 - Organize o código de forma clara e legível, utilizando boas práticas de programação.
 - Teste sua implementação com diferentes cenários, garantindo que todas as funcionalidades estejam corretas e sem erros.
 - Documente seu código adequadamente, explicando o propósito de cada método e classe.
