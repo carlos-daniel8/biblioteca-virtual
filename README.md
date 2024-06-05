@@ -22,6 +22,10 @@ Já na classe Book, temos os seguintes atributos junto com a possibilidade da cl
 
 <img align="center" alt="genre-class" height="400" width="650" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/book-atributes.png">
 
+Na mesma classe, temos os seguintes métodos:
+- showDetails - Sua função é imprimir todos os atributos presentes no livro
+- readDetails - Responsável por ler e armazenar inputs do usuário ao cadastrar um novo livro
+
 
 - Documente seu código adequadamente, explicando o propósito de cada método e classe.
 
