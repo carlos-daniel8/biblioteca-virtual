@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'autor.dart';
+import 'author.dart';
 import 'genre.dart';
 
 class Book {

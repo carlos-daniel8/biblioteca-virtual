@@ -1,4 +1,4 @@
-import 'autor.dart';
+import 'author.dart';
 import 'book.dart';
 import 'genre.dart';
 

@@ -1,16 +1,19 @@
 ### Atividade - Biblioteca Virtual
 
-Nesta atividade, você será desafiado a criar uma classe em Dart que represente uma biblioteca virtual. Sua biblioteca virtual deve ser capaz de realizar as seguintes operações:
+Atividade avaliativa que consiste na criação e implementação de uma biblioteca virtual capaz de realizar as seguintes operações:
 
-1. Cadastrar Livros: Crie um método na classe que permita cadastrar novos livros na biblioteca. Cada livro deve ter atributos como título, autor, ano de publicação, gênero, etc.
+1. Cadastrar Livros
 
-2. Remover Livros: Implemente um método que permita remover livros da biblioteca com base em algum critério, como título, autor ou identificador único do livro.
+2. Remover Livros por título 
 
-3. Listar Livros: Desenvolva um método que liste todos os livros disponíveis na biblioteca, exibindo suas informações de forma organizada e legível.
+3. Listar Livros Disponíveis
 
-Requisitos Técnicos:
+Primeiramente, temos as classes mais simples do projeto, que são: Author e Genre. Ambas consistem em classes que contém o atributo "name", representando o nome do autor ou do gênero e um método que imprime o mesmo na console
 
-- Utilize a linguagem Dart para implementar a classe da biblioteca virtual - OKAY.
-- Organize o código de forma clara e legível, utilizando boas práticas de programação.
-- Teste sua implementação com diferentes cenários, garantindo que todas as funcionalidades estejam corretas e sem erros.
+# Author
+    <img align="center" alt="author-class" height="40" width="50" src=">
+    <img align="center" alt="genre-class" height="40" width="50" src=">
+
+
 - Documente seu código adequadamente, explicando o propósito de cada método e classe.
+
