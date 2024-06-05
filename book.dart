@@ -59,6 +59,7 @@ class Book {
       print("Nenhum livro na biblioteca.");
     } else {
       for (var book in books) {
+        print("Lista de livros cadastrados:");
         book.showBookDetails();
         print('------------------------');
       }
@@ -66,6 +67,7 @@ class Book {
   }
 
   static void removeBookByTitle(String title) {
+    print("Digite o título do livro a ser removido: ");
     books.removeWhere((book) => book.title == title);
   }
 }
