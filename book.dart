@@ -24,7 +24,7 @@ class Book {
   Book(this.title, this.description, this.price, this.launchedYear, this.isbn,
       this.genre, this.author);
 
-  void showDetails() {
+  void showBookDetails() {
     print("Informações do livro");
     print("Nome do livro: ${title}");
     print("Descrição: ${description}");
@@ -35,7 +35,7 @@ class Book {
     print("Autor: ${author.authorName}");
   }
 
-  void readDetails() {
+  void readBookDetails() {
     print("Digite o título do livro: ");
     title = stdin.readLineSync()!;
     print("Digite a descrição: ");
@@ -65,7 +65,7 @@ class Library {
       print("Nenhum livro na biblioteca.");
     } else {
       for (var book in books) {
-        book.showDetails();
+        book.showBookDetails();
         print('------------------------');
       }
     }

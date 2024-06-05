@@ -18,9 +18,6 @@ void main() {
 
   library.addBook(book1);
 
-  // Book newBook = Book.empty();
-  // newBook.readDetails();
-
   print("Lista de livros na biblioteca:");
   library.listBooks();
 }
