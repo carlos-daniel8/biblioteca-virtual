@@ -1,10 +1,10 @@
+import 'dart:io';
+
 import 'author.dart';
 import 'book.dart';
 import 'genre.dart';
-import 'library.dart';
 
 void main() {
-  Library library = Library();
   Genre genre1 = Genre("Romance");
   Author author1 = Author("John Green");
 
@@ -17,11 +17,18 @@ void main() {
       genre1,
       author1);
 
-  library.addBook(book1);
-  
-  // Book newBook = Book.empty();
-  // newBook.readDetails();
+  Book.books.add(book1);
 
-  print("Lista de livros na biblioteca:");
-  library.listBooks();
+  // Book newBook = Book.empty();
+  // newBook.readBookDetails();
+
+  // Book.books.add(newBook);
+
+  Book.listBooks();
+
+  print("Digite o título do livro a ser removido: ");
+  String titleToRemove = stdin.readLineSync()!;
+  Book.removeBookByTitle(titleToRemove);
+
+  Book.listBooks();
 }

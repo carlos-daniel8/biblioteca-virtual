@@ -12,6 +12,8 @@ class Book {
   Genre genre;
   Author author;
 
+  static List<Book> books = [];
+
   Book.empty()
       : title = '',
         description = '',
@@ -50,5 +52,20 @@ class Book {
     genre = Genre(stdin.readLineSync()!);
     print("Digite o autor: ");
     author = Author(stdin.readLineSync()!);
+  }
+
+  static void listBooks() {
+    if (books.isEmpty) {
+      print("Nenhum livro na biblioteca.");
+    } else {
+      for (var book in books) {
+        book.showBookDetails();
+        print('------------------------');
+      }
+    }
+  }
+
+  static void removeBookByTitle(String title) {
+    books.removeWhere((book) => book.title == title);
   }
 }
