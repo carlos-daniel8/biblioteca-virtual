@@ -35,7 +35,7 @@ Na mesma classe, temos os seguintes métodos:
 ### Library
 Consiste basicamente em uma estrutura de dados que armazena todos os livros cadastrados, contendo os seguintes métodos:
 
-<img align="center" alt="genre-class" height="300" width="350" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/library.png">
+<img align="center" alt="genre-class" height="500" width="650" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/library.png">
 
 - addBook - Adiciona um livro à lista
 - listBooks - Lista todos os livros cadastrados na biblioteca
