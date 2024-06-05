@@ -1,6 +1,7 @@
 import 'author.dart';
 import 'book.dart';
 import 'genre.dart';
+import 'library.dart';
 
 void main() {
   Library library = Library();
@@ -17,6 +18,9 @@ void main() {
       author1);
 
   library.addBook(book1);
+  
+  // Book newBook = Book.empty();
+  // newBook.readDetails();
 
   print("Lista de livros na biblioteca:");
   library.listBooks();

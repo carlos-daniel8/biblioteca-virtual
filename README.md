@@ -32,3 +32,10 @@ Na mesma classe, temos os seguintes métodos:
 
 - Documente seu código adequadamente, explicando o propósito de cada método e classe.
 
+### Library
+Consiste basicamente em uma estrutura de dados que armazena todos os livros cadastrados, contendo os seguintes métodos:
+<img align="center" alt="genre-class" height="300" width="350" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/library.png">
+
+- addBook - Adiciona um livro à lista
+- listBooks - Lista todos os livros cadastrados na biblioteca
+- removeBookByTitle - Deleta um livro de acordo com seu título
