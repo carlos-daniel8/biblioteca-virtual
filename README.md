@@ -20,7 +20,7 @@ Primeiramente, temos as classes mais simples do projeto, que são: Author e Genr
 ### Book
 Já na classe Book, temos os seguintes atributos junto com a possibilidade da classe ser instanciada de forma vazia, facilitando sua inicialização.
 
-<img align="center" alt="genre-class" height="350" width="400" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/book-atributes.png">
+<img align="center" alt="genre-class" height="350" width="450" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/book-atributes.png">
 
 
 - Documente seu código adequadamente, explicando o propósito de cada método e classe.
