@@ -3,7 +3,7 @@ class Author {
 
   Author(this.authorName);
 
-  void showDetails() {
+  void showAuthorName() {
     print("Autor: ${authorName}");
   }
 }

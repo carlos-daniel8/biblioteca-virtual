@@ -3,7 +3,7 @@ class Genre {
 
   Genre(this.genreName);
 
-  void showDetails() {
+  void showGenreName() {
     print("Gênero: ${genreName}");
   }
 }
