@@ -20,7 +20,7 @@ Primeiramente, temos as classes mais simples do projeto, que são: Author e Genr
 ### Book
 Já na classe Book, temos os seguintes atributos junto com a possibilidade da classe ser instanciada de forma vazia, facilitando sua inicialização.
 
-<img align="center" alt="genre-class" height="400" width="650" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/book-atributes.png">
+<img align="center" alt="genre-class" height="500" width="650" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/book-atributes.png">
 
 Na mesma classe, temos os seguintes métodos:
 
