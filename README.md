@@ -34,5 +34,5 @@ Na mesma classe, temos os seguintes métodos:
 <img align="center" alt="list-books-method" height="300" width="350" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/list-books-method.png">
 
 - removeBookByTitle - Remove um livro por título
-<img align="center" alt="list-books-method" height="400" width="450" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/remove-book-by-title.png">
+<img align="center" alt="list-books-method" height="400" width="650" src="https://github.com/carlos-daniel8/biblioteca-virtual/blob/main/assets/remove-book-by-title.png">
 
